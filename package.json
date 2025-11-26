@@ -2,6 +2,10 @@
   "name": "o92-prorrateo-frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",
