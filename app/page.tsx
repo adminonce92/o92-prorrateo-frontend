@@ -14,6 +14,7 @@ export default function Home() {
     setLoading(true)
 
     try {
+      console.log(`Esto es lo que está pasando al back: ${fechaInicio} y ${fechaFin}`)
       // Llamar al backend
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_API_URL}/report`,
